@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards</title>
+    <style>
+        *{
+            padding: 0%;
+            margin: 0%;
+            box-sizing: border-box;
+        }
+        .container{
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: rgb(2,0,36);
+            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(110,9,121,1) 35%, rgba(0,212,255,1) 100%);
+        }
+        .card{
+            height: 500px;
+            width: 300px;
+            border-radius: 20px;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+        }
+        .firstImg{
+            height: 10em;
+            width: 300px;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            margin-bottom: 20px;
+        }
+        h2{
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .des{
+            text-align: center;
+            padding: 10px;
+
+        }
+        .plan{
+            height: 4em;
+            width: 250px;
+            border-radius: 10px;
+            background-color: rgb(229, 232, 236);
+            margin-top: 20px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+        .img2{
+            height: 40px;
+            width: 40px;
+            border-radius: 10px;
+            margin-left: 10px;
+        }
+        .planDes{
+            font-size: 13px;
+            margin-left: 10px;
+        }
+        .planChange{
+            margin-left: 65px;
+        }
+        button{
+            height: 4em;
+            width: 250px;
+            border-radius: 10px;
+            margin-top: 20px;
+            border-style: none;
+            background-color: rgb(27, 27, 84);
+            color: white;
+            
+            box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        }
+        .cancelOrder{
+            margin-top: 15px;
+            text-decoration: none;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <img src="./book-composition-with-open-book.jpg" alt="image of a book" class="firstImg">
+            <h2>Order Summary</h2>
+            <p class="des">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas mollitia sequi sunt sjft stys fhueh.</p>
+            <div class="plan">
+                <img src="./360_F_410179527_ExxSzamajaCtS16dyIjzBRNruqlU5KMA.jpg" alt="image of a logo" class="img2">
+                <p class="planDes">Annual Plan <br> $99.9/Year</p>
+                <a href="https://cssgradient.io/" class="planChange">Change</a>
+            </div>
+            <button>Proceed to Payment</button>
+            <a href="" class="cancelOrder">Cancel Order</a>
+
+        </div>
+
+    </div>
+    
+</body>
+</html>
